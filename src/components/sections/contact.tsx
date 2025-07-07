@@ -5,9 +5,9 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../ui/button";
 
 const socialLinks = [
-  { icon: Mail, href: "mailto:hello@stephen.dev", label: "Email" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Mail, href: "mailto:kariakistephen809@gmail.com", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/kariakistephen58/", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Kariaki58", label: "GitHub" },
 ];
 
 export default function ContactSection() {

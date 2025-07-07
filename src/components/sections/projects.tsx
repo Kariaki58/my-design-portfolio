@@ -10,30 +10,43 @@ import { SectionHeader } from "../section-header";
 
 const projects = [
   {
-    name: "E-commerce Platform",
-    description: "A full-featured e-commerce site with a custom CMS, increasing client conversion by 45%.",
-    image: "https://placehold.co/600x400.png",
-    hint: "online store",
-    technologies: ["Next.js", "Firebase", "Tailwind CSS", "Stripe"],
-    link: "#",
+    name: "Nkins E-commerce Platform",
+    description:
+      "A modern online store built for a fashion brand, featuring product search, cart, Paystack payments, and a custom Dashboard for managing inventory and orders. Helped increase sales conversion by 45%.",
+    image: "/p1.png",
+    hint: "fashion e-commerce",
+    technologies: ["Next.js", "Firebase", "Tailwind CSS", "Paystack"],
+    link: "https://nkins.vercel.app/",
   },
   {
-    name: "SaaS Dashboard",
-    description: "A data visualization dashboard for a SaaS product, leading to a 30% increase in user engagement.",
-    image: "https://placehold.co/600x400.png",
-    hint: "analytics dashboard",
+    name: "Air Travel Agency Website",
+    description:
+      "A responsive website for a travel and logistics company, showcasing flight booking, travel packages, and a sleek admin dashboard to manage bookings and inquiries.",
+    image: "/p2.png",
+    hint: "travel agency site",
     technologies: ["React", "Node.js", "Express", "D3.js"],
-    link: "#",
+    link: "https://blklogistics-agency.vercel.app/",
   },
   {
-    name: "Portfolio Website",
-    description: "A personal portfolio for a designer, showcasing their work with a clean and modern interface.",
-    image: "https://placehold.co/600x400.png",
-    hint: "creative portfolio",
-    technologies: ["Next.js", "Framer Motion", "Contentful"],
-    link: "#",
+    name: "Cosmetic Website for Skincare",
+    description:
+      "A visually elegant website for a skincare brand, highlighting beauty products and treatments, product galleries, and brand storytelling.",
+    image: "/p3.png",
+    hint: "skincare product site",
+    technologies: ["Next.js", "Framer Motion"],
+    link: "https://cosmetic-website-ten.vercel.app/",
+  },
+  {
+    name: "Dentist Website",
+    description:
+      "A professional website for a dental clinic, showcasing services, testimonials, and online appointment booking to help the clinic attract and retain more patients.",
+    image: "/p4.png",
+    hint: "dental clinic website",
+    technologies: ["Next.js", "Framer Motion"],
+    link: "https://www.neondentalprosthetic.com/",
   },
 ];
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
