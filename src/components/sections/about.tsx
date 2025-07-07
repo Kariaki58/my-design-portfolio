@@ -11,7 +11,7 @@ export default function AboutSection() {
             <MotionWrapper>
               <div className="relative aspect-square w-full max-w-sm mx-auto">
                 <Image
-                  src="https://placehold.co/600x600.png"
+                  src="/profile.jpeg"
                   alt="Stephen, the web developer"
                   width={600}
                   height={600}
