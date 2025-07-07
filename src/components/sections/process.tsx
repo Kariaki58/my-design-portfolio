@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Search, PenRuler, Code, Rocket } from "lucide-react";
+import { Search, PencilRuler, Code, Rocket } from "lucide-react";
 import { SectionHeader } from "../section-header";
 
 const processSteps = [
@@ -11,7 +11,7 @@ const processSteps = [
     description: "We start by understanding your goals, audience, and project requirements to build a solid foundation.",
   },
   {
-    icon: PenRuler,
+    icon: PencilRuler,
     title: "Design",
     description: "Next, I create wireframes and high-fidelity mockups, focusing on user experience and visual appeal.",
   },
